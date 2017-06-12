@@ -9,12 +9,12 @@
 
 	text := "123天生丽质难自弃，456天生丽质难自弃！天生丽质难自弃，天生丽质难自弃！天生丽质难自弃，天生丽质难自弃！天生丽质难自弃，天生丽质难自弃！233!"
 
-	logPath := "./logo.png"
+	logoPath := "./logo.png"
 
-	themLogo := "./transformers.png"
+	themeLogo := "./transformers.png"
 	fontFamily := "/Library/Fonts/Arial Unicode.ttf"
 
-	ctx:=GeneratorForPostcard(imageUrl, text, logPath, themLogo, fontFamily)  // to make postcard by url
+	ctx:=GeneratorForPostcard(imageUrl, text, logoPath, themeLogo, fontFamily)  // to make postcard by url
 
 	saveName:="./index-base-64-test.html"
 
